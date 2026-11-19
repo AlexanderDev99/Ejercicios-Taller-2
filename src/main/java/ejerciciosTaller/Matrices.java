@@ -22,7 +22,7 @@ public final class Matrices {
 
     // 2. MATRICES RGB CON OFFSET DE BRILLO
 
-    public static final float nivelBrillo20 = 255 * 0.20f;
+    public static final float nivelBrillo20 = 255 * -0.5f;
 
     // Escala de grises con brillo
     public static final float[][] matrizGrisesRGBBrillo = {

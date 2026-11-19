@@ -39,7 +39,7 @@ public class MatrizColores {
             );
 
 
-            float[][] matriz = Matrices.matrizGrisesRGB;
+            float[][] matriz = Matrices.matrizGrisesRGBBrillo;
 
 
             for (int x = 0; x < ancho; x++) {
