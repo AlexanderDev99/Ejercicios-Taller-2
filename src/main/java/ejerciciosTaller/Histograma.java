@@ -35,7 +35,6 @@ public class Histograma {
 	            //arreglo del histograma
 	            int[] histoRed = new int[256];
 
-
 	            //optimizacion primero filas luego columnas
 	            for (int y = 0; y < alto; y++) {
 	                for (int x = 0; x < ancho; x++) {
@@ -49,7 +48,7 @@ public class Histograma {
 	                   
 	                    //guardamos las intensidades
 	                    histoRed[r]++;
-
+	                 
 	                }
 	            }
 	            
@@ -66,7 +65,7 @@ public class Histograma {
 	            		+ histoRed[x]));
 	            
 	            //generamos el histograma
-	            
+	  
 	            Graphics2D gr = imagenHisto.createGraphics();
 	            gr.setColor(Color.WHITE); //limpiamos la pantalla
 	            gr.fillRect(0, 0, ancho, alto); //definimos el tamaño de la ventana igual a la imagen original
